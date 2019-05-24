@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-ENSS4EG</Machine>
+    <WindowsUser>Brian</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>3dbcf6d8-82b8-414a-a858-42f47a5cf2b8</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Brian</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\obj\x64\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>F55FF31E1B117A4E0AE022C13FB2DFF8A2A8C9694B1DE8C219548695B79BF84F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>3dbcf6d8-82b8-414a-a858-42f47a5cf2b8_1.0.0.0_x64__gevy8cezwa384</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>3dbcf6d8-82b8-414a-a858-42f47a5cf2b8_gevy8cezwa384!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>3dbcf6d8-82b8-414a-a858-42f47a5cf2b8</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Brian</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\bin\x64\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-01-14T02:46:25.847</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\bin\x64\Debug\iTec_uwp.exe">
+      <PackagePath>entrypoint\iTec_uwp.exe</PackagePath>
+      <Modified>2019-01-14T02:46:23.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\colorcode.core\2.0.5\lib\netstandard1.4\ColorCode.Core.dll">
+      <PackagePath>ColorCode.Core.dll</PackagePath>
+      <Modified>2018-05-17T02:55:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\colorcode.uwp\2.0.5\lib\uap10.0\ColorCode.UWP.dll">
+      <PackagePath>ColorCode.UWP.dll</PackagePath>
+      <Modified>2018-05-17T02:55:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\m2mqtt\4.3.0\lib\win81\M2Mqtt.WinRT.dll">
+      <PackagePath>M2Mqtt.WinRT.dll</PackagePath>
+      <Modified>2015-12-06T07:10:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.identity.client\1.1.2-preview0008\lib\win81\Microsoft.Identity.Client.dll">
+      <PackagePath>Microsoft.Identity.Client.dll</PackagePath>
+      <Modified>2018-02-02T10:02:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit\4.0.0\lib\netstandard1.4\Microsoft.Toolkit.dll">
+      <PackagePath>Microsoft.Toolkit.dll</PackagePath>
+      <Modified>2018-08-07T14:23:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.parsers\4.0.0\lib\netstandard1.4\Microsoft.Toolkit.Parsers.dll">
+      <PackagePath>Microsoft.Toolkit.Parsers.dll</PackagePath>
+      <Modified>2018-08-07T14:23:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.dll</PackagePath>
+      <Modified>2018-08-07T14:23:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.dll</PackagePath>
+      <Modified>2018-08-07T14:23:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.animations\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Animations.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Animations.dll</PackagePath>
+      <Modified>2018-08-07T14:23:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.dll</PackagePath>
+      <Modified>2018-08-07T14:23:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll</PackagePath>
+      <Modified>2018-08-07T14:23:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2016-02-22T05:59:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2016-02-22T05:59:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2018-03-24T09:44:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\oxyplot.core\1.0.0\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10\OxyPlot.dll">
+      <PackagePath>OxyPlot.dll</PackagePath>
+      <Modified>2016-09-11T12:26:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\oxyplot.windows\1.0.0\lib\uap10.0\OxyPlot.Windows.dll">
+      <PackagePath>OxyPlot.Windows.dll</PackagePath>
+      <Modified>2016-09-11T12:26:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\qrcoder\1.3.4\lib\uap10.0\QRCoder.dll">
+      <PackagePath>QRCoder.dll</PackagePath>
+      <Modified>2018-11-17T10:53:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\robmikh.compositionsurfacefactory\0.7.3\runtimes\win10-x64\native\Robmikh.CompositionSurfaceFactory.dll">
+      <PackagePath>Robmikh.CompositionSurfaceFactory.dll</PackagePath>
+      <Modified>2017-09-27T11:20:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.2\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2018-10-31T03:01:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\sqlite\3.13.0\runtimes\win10-x64\nativeassets\uap10.0\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2016-10-18T13:37:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\sqlitepcl\3.8.7.2\lib\netcore451\SQLitePCL.dll">
+      <PackagePath>SQLitePCL.dll</PackagePath>
+      <Modified>2014-12-09T03:04:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\system.drawing.common\4.5.0-preview1-25914-04\lib\netstandard2.0\System.Drawing.Common.dll">
+      <PackagePath>System.Drawing.Common.dll</PackagePath>
+      <Modified>2017-11-14T07:14:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\win2d.uwp\1.21.0\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2017-06-25T19:01:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\robmikh.compositionsurfacefactory\0.7.3\lib\uap10.0\Robmikh.CompositionSurfaceFactory.winmd">
+      <PackagePath>Robmikh.CompositionSurfaceFactory.winmd</PackagePath>
+      <Modified>2017-09-27T11:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\win2d.uwp\1.21.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2017-06-25T19:01:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\sqlitepcl\3.8.7.2\build\netcore451\SQLitePCL.Ext.dll">
+      <PackagePath>SQLitePCL.Ext.dll</PackagePath>
+      <Modified>2014-12-09T03:04:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\BikeStyle.png">
+      <PackagePath>Assets\BikeStyle.png</PackagePath>
+      <Modified>2018-11-28T07:20:40.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\BikeStyle2.png">
+      <PackagePath>Assets\BikeStyle2.png</PackagePath>
+      <Modified>2018-12-12T04:03:49.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\BikeStyle3.png">
+      <PackagePath>Assets\BikeStyle3.png</PackagePath>
+      <Modified>2018-12-26T02:08:16.950</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area1-2\0.png">
+      <PackagePath>Assets\ColorPercent\Area1-2\0.png</PackagePath>
+      <Modified>2018-12-03T06:41:49.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area1-2\10.png">
+      <PackagePath>Assets\ColorPercent\Area1-2\10.png</PackagePath>
+      <Modified>2018-12-03T06:42:50.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area1-2\100.png">
+      <PackagePath>Assets\ColorPercent\Area1-2\100.png</PackagePath>
+      <Modified>2018-12-03T06:48:58.971</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area1-2\20.png">
+      <PackagePath>Assets\ColorPercent\Area1-2\20.png</PackagePath>
+      <Modified>2018-12-03T06:43:25.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area1-2\30.png">
+      <PackagePath>Assets\ColorPercent\Area1-2\30.png</PackagePath>
+      <Modified>2018-12-03T06:43:56.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area1-2\40.png">
+      <PackagePath>Assets\ColorPercent\Area1-2\40.png</PackagePath>
+      <Modified>2018-12-03T06:44:28.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area1-2\50.png">
+      <PackagePath>Assets\ColorPercent\Area1-2\50.png</PackagePath>
+      <Modified>2018-12-03T06:45:03.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area1-2\60.png">
+      <PackagePath>Assets\ColorPercent\Area1-2\60.png</PackagePath>
+      <Modified>2018-12-03T06:45:38.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area1-2\70.png">
+      <PackagePath>Assets\ColorPercent\Area1-2\70.png</PackagePath>
+      <Modified>2018-12-03T06:46:11.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area1-2\80.png">
+      <PackagePath>Assets\ColorPercent\Area1-2\80.png</PackagePath>
+      <Modified>2018-12-03T06:46:39.590</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area1-2\90.png">
+      <PackagePath>Assets\ColorPercent\Area1-2\90.png</PackagePath>
+      <Modified>2018-12-03T06:48:31.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area1-2\Black.png">
+      <PackagePath>Assets\ColorPercent\Area1-2\Black.png</PackagePath>
+      <Modified>2018-12-03T03:03:32.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area3\0.png">
+      <PackagePath>Assets\ColorPercent\Area3\0.png</PackagePath>
+      <Modified>2018-12-03T02:46:30.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area3\0_.png">
+      <PackagePath>Assets\ColorPercent\Area3\0_.png</PackagePath>
+      <Modified>2018-12-12T06:09:52.359</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area3\10.png">
+      <PackagePath>Assets\ColorPercent\Area3\10.png</PackagePath>
+      <Modified>2018-12-03T04:12:48.957</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area3\100.png">
+      <PackagePath>Assets\ColorPercent\Area3\100.png</PackagePath>
+      <Modified>2018-12-03T04:17:47.375</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area3\20.png">
+      <PackagePath>Assets\ColorPercent\Area3\20.png</PackagePath>
+      <Modified>2018-12-03T04:13:30.391</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area3\30.png">
+      <PackagePath>Assets\ColorPercent\Area3\30.png</PackagePath>
+      <Modified>2018-12-03T04:14:05.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area3\40.png">
+      <PackagePath>Assets\ColorPercent\Area3\40.png</PackagePath>
+      <Modified>2018-12-03T04:14:41.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area3\50.png">
+      <PackagePath>Assets\ColorPercent\Area3\50.png</PackagePath>
+      <Modified>2018-12-03T04:15:11.687</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area3\60.png">
+      <PackagePath>Assets\ColorPercent\Area3\60.png</PackagePath>
+      <Modified>2018-12-03T04:15:43.421</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area3\70.png">
+      <PackagePath>Assets\ColorPercent\Area3\70.png</PackagePath>
+      <Modified>2018-12-03T04:16:14.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area3\80.png">
+      <PackagePath>Assets\ColorPercent\Area3\80.png</PackagePath>
+      <Modified>2018-12-03T04:16:47.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area3\90.png">
+      <PackagePath>Assets\ColorPercent\Area3\90.png</PackagePath>
+      <Modified>2018-12-03T04:17:18.043</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area4-5\0.png">
+      <PackagePath>Assets\ColorPercent\Area4-5\0.png</PackagePath>
+      <Modified>2018-12-03T02:46:12.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area4-5\0_.png">
+      <PackagePath>Assets\ColorPercent\Area4-5\0_.png</PackagePath>
+      <Modified>2018-12-12T05:44:24.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area4-5\10.png">
+      <PackagePath>Assets\ColorPercent\Area4-5\10.png</PackagePath>
+      <Modified>2018-12-03T02:58:19.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area4-5\100.png">
+      <PackagePath>Assets\ColorPercent\Area4-5\100.png</PackagePath>
+      <Modified>2018-12-03T02:56:52.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area4-5\20.png">
+      <PackagePath>Assets\ColorPercent\Area4-5\20.png</PackagePath>
+      <Modified>2018-12-03T02:58:08.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area4-5\30.png">
+      <PackagePath>Assets\ColorPercent\Area4-5\30.png</PackagePath>
+      <Modified>2018-12-03T02:57:56.050</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area4-5\40.png">
+      <PackagePath>Assets\ColorPercent\Area4-5\40.png</PackagePath>
+      <Modified>2018-12-03T02:57:46.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area4-5\50.png">
+      <PackagePath>Assets\ColorPercent\Area4-5\50.png</PackagePath>
+      <Modified>2018-12-03T02:57:37.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area4-5\60.png">
+      <PackagePath>Assets\ColorPercent\Area4-5\60.png</PackagePath>
+      <Modified>2018-12-03T02:57:26.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area4-5\70.png">
+      <PackagePath>Assets\ColorPercent\Area4-5\70.png</PackagePath>
+      <Modified>2018-12-03T02:57:14.189</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area4-5\80.png">
+      <PackagePath>Assets\ColorPercent\Area4-5\80.png</PackagePath>
+      <Modified>2018-12-03T02:57:04.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\ColorPercent\Area4-5\90.png">
+      <PackagePath>Assets\ColorPercent\Area4-5\90.png</PackagePath>
+      <Modified>2018-12-03T02:56:39.876</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:57.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:57.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:57.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:58.234</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:39.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:39.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:39.100</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:39.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:38.989</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:38.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:39.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:39.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:39.033</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:39.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:39.078</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:39.047</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:39.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2018-10-04T03:39:05.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:57.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-04T03:39:05.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:39.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-11-16T01:21:39.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-04T03:39:05.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-10-04T03:39:05.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\default.jpg">
+      <PackagePath>Assets\default.jpg</PackagePath>
+      <Modified>2018-12-21T15:22:03.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Sensor.jpg">
+      <PackagePath>Assets\Sensor.jpg</PackagePath>
+      <Modified>2018-11-23T01:23:46.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Assets\Splash.jpg">
+      <PackagePath>Assets\Splash.jpg</PackagePath>
+      <Modified>2018-11-23T00:48:49.485</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2018-11-14T08:17:29.224</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\bin\x64\Debug\iTec_uwp.xr.xml">
+      <PackagePath>iTec_uwp.xr.xml</PackagePath>
+      <Modified>2019-01-08T01:40:39.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2019-01-14T02:46:23.151</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\bin\x64\Debug\HomePage.xbf">
+      <PackagePath>HomePage.xbf</PackagePath>
+      <Modified>2019-01-14T02:46:23.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2019-01-14T02:46:23.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\bin\x64\Debug\PressureDisplayPage.xbf">
+      <PackagePath>PressureDisplayPage.xbf</PackagePath>
+      <Modified>2019-01-14T02:46:23.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\bin\x64\Debug\QRcodePage.xbf">
+      <PackagePath>QRcodePage.xbf</PackagePath>
+      <Modified>2019-01-14T02:46:23.152</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\bin\x64\Debug\RawDataPage.xbf">
+      <PackagePath>RawDataPage.xbf</PackagePath>
+      <Modified>2019-01-14T02:46:23.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\bin\x64\Debug\Sensor1_Page.xbf">
+      <PackagePath>Sensor1_Page.xbf</PackagePath>
+      <Modified>2019-01-14T02:46:23.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\bin\x64\Debug\Sensor2_Page.xbf">
+      <PackagePath>Sensor2_Page.xbf</PackagePath>
+      <Modified>2019-01-14T02:46:23.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\bin\x64\Debug\Sensor3_Page.xbf">
+      <PackagePath>Sensor3_Page.xbf</PackagePath>
+      <Modified>2019-01-14T02:46:23.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\bin\x64\Debug\StartPage.xbf">
+      <PackagePath>StartPage.xbf</PackagePath>
+      <Modified>2019-01-14T02:46:23.153</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\bin\x64\Debug\UART_TestPage.xbf">
+      <PackagePath>UART_TestPage.xbf</PackagePath>
+      <Modified>2019-01-14T02:46:23.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2018-04-19T14:01:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI\Microsoft.Toolkit.Uwp.UI.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI\Microsoft.Toolkit.Uwp.UI.xr.xml</PackagePath>
+      <Modified>2018-08-07T14:19:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI\Extensions\NavigationView\NavigationView.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI\Extensions\NavigationView\NavigationView.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI\Extensions\NavigationView\Styles\VSCodeActivityBarStyle.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI\Extensions\NavigationView\Styles\VSCodeActivityBarStyle.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml</PackagePath>
+      <Modified>2018-08-07T14:19:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\BladeView\BladeView.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\BladeView\BladeView.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\CameraPreview\CameraPreview.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\CameraPreview\CameraPreview.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Carousel\Carousel.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Carousel\Carousel.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\DropShadowPanel\DropShadowPanel.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\DropShadowPanel\DropShadowPanel.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Expander\Expander.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Expander\Expander.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\GridSplitter\GridSplitter.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\GridSplitter\GridSplitter.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenu.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenu.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuNavViewTemplate.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuNavViewTemplate.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuTemplate.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuTemplate.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedContentControl\HeaderedContentControl.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedContentControl\HeaderedContentControl.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedItemsControl\HeaderedItemsControl.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedItemsControl\HeaderedItemsControl.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedTextBlock\HeaderedTextBlock.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedTextBlock\HeaderedTextBlock.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\ImageEx.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\ImageEx.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\RoundImageEx.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\RoundImageEx.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\InAppNotification.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\InAppNotification.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\MSEdgeNotificationStyle.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\MSEdgeNotificationStyle.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\VSCodeNotificationStyle.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\VSCodeNotificationStyle.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\InfiniteCanvas\InfiniteCanvas.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InfiniteCanvas\InfiniteCanvas.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\LayoutTransformControl\LayoutTransformControl.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\LayoutTransformControl\LayoutTransformControl.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Loading\Loading.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Loading\Loading.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\MarkdownTextBlock\MarkdownTextBlock.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\MarkdownTextBlock\MarkdownTextBlock.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\MasterDetailsView\MasterDetailsView.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\MasterDetailsView\MasterDetailsView.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Menu\Menu.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Menu\Menu.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\OrbitView\OrbitView.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\OrbitView\OrbitView.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListView.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListView.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListViewRefreshContainerTemplate.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListViewRefreshContainerTemplate.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListViewTemplate.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListViewTemplate.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\RadialGauge\RadialGauge.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RadialGauge\RadialGauge.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\RadialProgressBar\RadialProgressBar.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RadialProgressBar\RadialProgressBar.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\RangeSelector\RangeSelector.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RangeSelector\RangeSelector.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\RotatorTile\RotatorTile.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RotatorTile\RotatorTile.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\ScrollHeader\ScrollHeader.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ScrollHeader\ScrollHeader.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItem.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItem.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItemSwipeControlTemplate.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItemSwipeControlTemplate.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\TextToolbar.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\TextToolbar.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\Symbols\Symbols.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\Symbols\Symbols.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarButton.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarButton.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarSeparator.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarSeparator.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Themes\Generic.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Themes\Generic.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\TileControl\TileControl.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TileControl\TileControl.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml</PackagePath>
+      <Modified>2018-08-07T14:19:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\DataGrid\DataGrid.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\DataGrid\DataGrid.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\microsoft.toolkit.uwp.ui.controls.datagrid\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Themes\Generic.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Themes\Generic.xbf</PackagePath>
+      <Modified>2018-08-07T14:20:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\oxyplot.windows\1.0.0\lib\uap10.0\OxyPlot.Windows\OxyPlot.Windows.xr.xml">
+      <PackagePath>OxyPlot.Windows\OxyPlot.Windows.xr.xml</PackagePath>
+      <Modified>2016-09-11T12:26:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Brian\.nuget\packages\oxyplot.windows\1.0.0\lib\uap10.0\OxyPlot.Windows\Properties\OxyPlot.Windows10.rd.xml">
+      <PackagePath>OxyPlot.Windows\Properties\OxyPlot.Windows10.rd.xml</PackagePath>
+      <Modified>2016-09-11T12:26:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-01-14T02:45:23.853</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Projects\整技科技\SVN\Source\iTec_uwp\iTec_uwp\bin\x64\Debug\Core\iTec_uwp.exe">
+      <PackagePath>iTec_uwp.exe</PackagePath>
+      <Modified>2019-01-14T02:46:25.836</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\Brian\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Brian\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Brian\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Brian\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Brian\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Brian\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Brian\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Brian\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Brian\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Brian\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Brian\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.26926.4</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.26926.4, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Brian\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.2\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.26726.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26726.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.26726.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26726.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.26726.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.26726.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

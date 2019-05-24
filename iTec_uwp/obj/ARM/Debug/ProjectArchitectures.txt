@@ -1,0 +1,1 @@
+C:\Users\user\Desktop\20190123\iTec_uwp\iTec_uwp\iTec_uwp.csproj;arm

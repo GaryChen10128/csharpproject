@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="iTec_uwp.QRcodePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:iTec_uwp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image Source="Assets\Default.jpg"/>
+        <Image x:ConnectionId='2' x:Name="myQRCode" Margin="490,111,0,113" HorizontalAlignment="Left" Width="491" />
+        <StackPanel>
+            <Button x:ConnectionId='5' x:Name="btnExit" Padding="0" BorderThickness="0" Content="Exit" FontSize="36" Background="#33000000" FocusVisualPrimaryBrush="#FF271D1D" FontFamily="Monaco" HorizontalAlignment="Right" Height="50" VerticalAlignment="Top" Width="249" Margin="0,11,2,0" BorderBrush="#FFA82D2D" Foreground="#FFC13810" FocusVisualSecondaryBrush="#99000000"                      />
+        </StackPanel>
+        <TextBox x:ConnectionId='3' x:Name="txtUserID" HorizontalAlignment="Left" Margin="17,233,0,0" Text="ID: 123456789" VerticalAlignment="Top" Width="436" Height="59" FontSize="36" FocusVisualPrimaryBrush="{x:Null}" SelectionHighlightColorWhenNotFocused="#FFDEB9B9" BorderBrush="{x:Null}" FocusVisualSecondaryBrush="{x:Null}" SelectionHighlightColor="{x:Null}" Background="{x:Null}" Foreground="#FF96BB1B" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsTapEnabled="False" IsRightTapEnabled="False"/>
+        <TextBox x:ConnectionId='4' x:Name="textBox_Copy" HorizontalAlignment="Left" Margin="17,178,0,0" Text="保存個人運動資料，請掃描 QR code" VerticalAlignment="Top" Width="436" Height="43" FontSize="22" SelectionHighlightColorWhenNotFocused="#FFDEB9B9" FocusVisualPrimaryBrush="{x:Null}" BorderBrush="{x:Null}" Background="{x:Null}" Foreground="#FFB6B6B6" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsTapEnabled="False" IsRightTapEnabled="False"/>
+    </Grid>
+
+</Page>
+
+    
+  
+
